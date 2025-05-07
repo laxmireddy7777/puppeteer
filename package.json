@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "types": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxmireddy7777/puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laxmireddy7777/puppeteer/issues"
+  },
+  "homepage": "https://github.com/laxmireddy7777/puppeteer#readme",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "dotenv": "^16.5.0",
+    "mailslurp-client": "^15.21.0",
+    "puppeteer": "^24.8.1"
+  }
+}
