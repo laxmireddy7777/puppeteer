@@ -107,7 +107,7 @@ async function freightForm() {
     // Click "Sign In" button
     await submitButtonLocator.click();
 
-   consoel.loog("Test Complete");
+   console.log("Test Complete");
 
     // You can close the browser if needed
     // await browser.close();
