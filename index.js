@@ -5,4 +5,4 @@ async function main() {
     // await freightForm();
     await facebookLogin();
 }
-main()
+mainsldfhsdfj()
