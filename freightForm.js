@@ -7,6 +7,13 @@ dotenv.config();
 const apiKey = process.env.MAILSLURP_API_KEY;
 const mailslurp = new MailSlurp({ apiKey });
 
+/**
+ * Automates the user registration, email verification, and login process on a specified website using Puppeteer, Faker, and MailSlurp.
+ *
+ * Generates random user details, creates a temporary email inbox, fills out the signup form, retrieves and enters the OTP from the email, and completes the login flow.
+ *
+ * @remark Leaves the browser open upon completion; browser closure is commented out.
+ */
 async function freightForm() {
   try {
     const browser = await puppeteer.launch({ headless: false, defaultViewport: null, args: ['--start-maximized'] });
