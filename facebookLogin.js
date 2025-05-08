@@ -37,10 +37,10 @@ async function facebookLogin() {
       console.log('No cookie dialog found or already accepted');
     }
 
-    // Get locators for login form elements
-    const emailLocator = page.locator('#email');
-    const passwordLocator = page.locator('#pass');
-    const loginButtonLocator = page.locator('[data-testid="royal_login_button"]');
+    // Get selectors for login form elements
+    const emailSelector = '#email';
+    const passwordSelector = '#pass';
+    const loginButtonSelector = '[data-testid="royal_login_button"]';
 
     // Check if environment variables for login credentials are set
     const email = process.env.FACEBOOK_EMAIL;
