@@ -78,12 +78,10 @@ async function facebookLogin() {
         console.log('Two-factor authentication is required');
       }
     }
+hdfhdkjfgk
 
-    // Keep the browser open for demonstration purposes
-    // You can uncomment this line to close the browser when done:
-    // await browser.close();
-    
-    consoel.loog("Facebook login test complete");
+conso.loyyg(xhgj)
+ 
   } catch (error) {
     console.error('An error occurred during Facebook login:', error);
   }
